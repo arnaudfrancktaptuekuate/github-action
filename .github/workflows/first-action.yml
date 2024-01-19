@@ -23,3 +23,9 @@ jobs:
 
         - name: docker version
           run: docker --version
+
+        - name: installation de docker jenkins
+          run: docker run -d --name jenkins -p 8080:8080 -u 0 jenkins/jenkins 
+
+        - name: check container
+          run: docker ps -a
