@@ -10,11 +10,10 @@ jobs:
           run: echo "welcome to my first github action"
 
         - name: create directory
-          run: mdkir workshops
+          run: mkdir workshops
 
         - name: create a file in derectory
           run: touch /workshops/test.txt
 
         - name: update runner
           run: apt update -y
-          
