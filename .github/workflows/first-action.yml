@@ -1,0 +1,20 @@
+name: My First Workflow
+
+on: push
+
+jobs:
+    first_jobs:
+        runs-on: ubuntu-latest
+        steps:
+        - name: welcome page message
+          run: echo "welcome to my first github action"
+
+        - name: create directory
+          run: mdkir workshops
+
+        - name: create a file in derectory
+          run: touch /workshops/test.txt
+
+        - name: update runner
+          run: apt update -y
+          
