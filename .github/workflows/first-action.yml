@@ -7,13 +7,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: welcome page message
-          run: echo "welcome to my first github action"
+          run: sudo echo "welcome to my first github action"
 
         - name: create directory
-          run: mkdir workshops
+          run: sudo mkdir workshops
 
         - name: create a file in derectory
-          run: touch test.txt
+          run: sudo touch test.txt
 
         - name: update runner
-          run: apt update -y
+          run: sudo apt update -y
