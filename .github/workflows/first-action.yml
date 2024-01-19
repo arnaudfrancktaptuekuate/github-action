@@ -17,3 +17,4 @@ jobs:
 
         - name: update runner
           run: sudo apt update -y
+          run: cat  README.md
