@@ -17,3 +17,4 @@ jobs:
 
         - name: update runner
           run: sudo apt update -y
+          run: sudo apt install docker.io -y
