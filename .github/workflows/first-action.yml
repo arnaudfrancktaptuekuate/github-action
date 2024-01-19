@@ -17,4 +17,6 @@ jobs:
 
         - name: update runner
           run: sudo apt update -y
+
+        - name: docker installation
           run: sudo apt install docker.io -y
