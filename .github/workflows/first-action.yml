@@ -13,7 +13,7 @@ jobs:
           run: mkdir workshops
 
         - name: create a file in derectory
-          run: touch /workshops/test.txt
+          run: touch test.txt
 
         - name: update runner
           run: apt update -y
