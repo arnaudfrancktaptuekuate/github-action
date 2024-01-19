@@ -20,4 +20,6 @@ jobs:
 
         - name: docker installation
           run: install --help
+
+        - name: docker version
           run: docker --version
